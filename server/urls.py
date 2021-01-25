@@ -19,4 +19,5 @@ from server import views
 urlpatterns = [
     # simple message
     path('api/message', views.Message),
+    path('api/progress', views.progress),
 ]
